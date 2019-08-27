@@ -51,7 +51,7 @@ body {
 #logo {
     padding:25px;
     margin-left:11px;
-    margin-top:5px;
+    margin-top:-20px;
 }
 
 #footer {
@@ -133,3 +133,17 @@ body {
     margin-top: -233px;
     padding: 5px;
 }
+
+ul{
+    list-style:none;
+    display:flex;
+}
+
+ul>li {
+    padding-left:25px;
+}
+
+#ulItems2{
+    margin-left:230px;
+}
+
