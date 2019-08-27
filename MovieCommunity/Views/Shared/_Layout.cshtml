@@ -11,37 +11,45 @@
     <body id="body">
         <div id="ContainerHeader" style="color:yellow">
             <div id="logo">
-                <img src="~/Resources/images/logo.png" width="170px" height="70px" />
+                <a href='@Url.Action("Index", "Index")'>
+                    <img src='@Url.Content("~/Resources/images/logo.png")' width="170px" height="70px"/>
+                </a>
             </div>
             <div id="containerItems1" style="color:white">
-                <div id="carritoLogo" style="color:white">
-                    <a href="#" style="text-decoration:none">Peliculas</a>
-                </div>
-                <div id="perfilLogo" style="color:white">
-                    <a href="#">Series</a>
-                </div>
-                <div id="notifLogo" style="color:white">
-                    <a href="#">Comunidad</a>
-                </div>
+                <ul>
+                    <li>@Html.ActionLink("Contenido", "IndexContent", "Content", null, new { style = "text-decoration:none;color:white" })</li>
+                    <li>@Html.ActionLink("Comunidad", "IndexCommunity", "Community", null, new { style = "text-decoration:none;color:white" })</li>
+                </ul>
             </div>
             <div id="containerItems2">
-                <div id="buttonIngresar" style="margin-left:400px;">
-                    <a href="#">Ingresar</a>
-                </div>
-                <div id="buttonRegistrar">
-                    <a href="#">Regstrarse</a>
-                </div>
+                <ul id="ulItems2">
+                    <li>@Html.ActionLink("Ingresar", "Index", "Home", null, new { style = "text-decoration:none;color:white" })</li>
+                    <li>@Html.ActionLink("Registrarse", "About", "Home", null, new { style = "text-decoration:none;color:white" })</li>
+                </ul>
             </div>
         </div>
         <div id="browser">
             <img id="lupaIcon" src="~/Resources/images/icons/lupa.png" height="25px" width="25px;" />
-            <input id="inputBrowser" type="text" name="name" value="" style="border:none;width:1500px; height:35px;" placeholder="     Search Your Movie,Serie..." />
+            <input id="inputBrowser" type="text" name="name" value="" style="border:none; height:35px;" placeholder="     Search Your Movie,Serie..." />
         </div>
         <div class="container body-content">
             @RenderBody()
         </div>
-        <div id="footer" style="background-color:orange;">
-            div 2
+        <div id="footer">
+            <div id="imagenF">
+                <img src="~/Resources/images/kev.png" width="50px" height="50px" style="border-radius:100px;"/>
+            </div>
+            <div id="group2Footer">
+                <div>
+                    icon1
+                </div>
+                <div>
+                    icon2
+                </div>
+                <div>
+                    icon3
+                </div>
+            </div>
         </div>
    </body>
 </html>
