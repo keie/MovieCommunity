@@ -96,10 +96,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Resources\css\index\index.css" />
+    <Content Include="Resources\images\icons\ig.png" />
+    <Content Include="Resources\images\icons\in.png" />
+    <Content Include="Resources\images\icons\ln.png" />
     <Content Include="Resources\images\icons\lupa.png" />
+    <Content Include="Resources\images\icons\tw.png" />
     <Content Include="Resources\images\image.png" />
     <Content Include="Resources\images\interestellar.jpg" />
     <Content Include="Resources\images\intrs.jpg" />
+    <Content Include="Resources\images\kev2.png" />
     <Content Include="Resources\images\logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
