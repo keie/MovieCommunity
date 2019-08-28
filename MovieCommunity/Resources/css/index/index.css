@@ -217,13 +217,15 @@ ul>li {
     cursor:pointer;
 }
 
-button {
+#containerItems2 button {
     outline: none;
     background-color: transparent;
     border: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color:white;
-    font-weight:bold;
-    cursor:pointer;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
+
+

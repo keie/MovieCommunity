@@ -96,6 +96,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Resources\css\index\index.css" />
+    <Content Include="Resources\css\popups\popupReg.css" />
+    <Content Include="Resources\css\popups\popupSesion.css" />
     <Content Include="Resources\images\icons\close.png" />
     <Content Include="Resources\images\icons\ig.png" />
     <Content Include="Resources\images\icons\in.png" />
@@ -108,6 +110,7 @@
     <Content Include="Resources\images\kev2.png" />
     <Content Include="Resources\images\logo.png" />
     <Content Include="Resources\js\popup.js" />
+    <Content Include="Resources\js\popupRegister.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />

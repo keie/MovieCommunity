@@ -1,0 +1,10 @@
+﻿#popupReg > input {
+    margin-top: 12px;
+    border-radius: 13px;
+    width: 200px;
+    height: 20px;
+}
+
+#popupReg {
+    margin-left: 80px;
+}

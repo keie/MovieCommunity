@@ -2,8 +2,14 @@
     document.getElementById('popUp').style.display = 'none';
 }
 
-function Test() {
-    //var str = "<div style='background-color: yellow;  height:90px; width:90px;'>'testing'</div>";
+function StartSession() {
+    var str = "<div id='popupReg' style='background-color: red;  height:90px; width:90px;'>" +
+                "<input type='text' placeholder='Username'/>" +
+                "<input type='password' placeholder='password'/>" +
+                "<a src='#'>¿Olvidaste la contraseña?</a>"+
+                "<button id='btnReg'>INGRESAR</button>" +
+              "</div > ";
+    document.getElementById('form').innerHTML = str;
     document.getElementById('popUp').style.display = 'block';
 }
 
