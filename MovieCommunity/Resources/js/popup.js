@@ -3,10 +3,11 @@
 }
 
 function StartSession() {
-    var str = "<div id='popupReg' style='background-color: red;  height:90px; width:90px;'>" +
+    var str = "<div id='popupReg' style='  height:90px; width:90px;'>" +
                 "<input type='text' placeholder='Username'/>" +
                 "<input type='password' placeholder='password'/>" +
-                "<a src='#'>¿Olvidaste la contraseña?</a>"+
+                
+                "<a src='#'>¿Olvidaste la contraseña?</a>" +
                 "<button id='btnReg'>INGRESAR</button>" +
               "</div > ";
     document.getElementById('form').innerHTML = str;

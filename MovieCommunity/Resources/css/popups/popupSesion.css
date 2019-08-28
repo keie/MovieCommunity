@@ -3,8 +3,24 @@
     border-radius: 13px;
     width: 200px;
     height: 20px;
+    margin-bottom: 10px;
+    
 }
 
 #popupReg {
     margin-left: 80px;
+
+    
+}
+
+#btnReg {
+    background-color: #081c24;
+    color: #01d277;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 48px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left:-80px;
 }
