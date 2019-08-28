@@ -96,6 +96,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Resources\css\index\index.css" />
+    <Content Include="Resources\images\icons\close.png" />
     <Content Include="Resources\images\icons\ig.png" />
     <Content Include="Resources\images\icons\in.png" />
     <Content Include="Resources\images\icons\ln.png" />
@@ -106,6 +107,7 @@
     <Content Include="Resources\images\intrs.jpg" />
     <Content Include="Resources\images\kev2.png" />
     <Content Include="Resources\images\logo.png" />
+    <Content Include="Resources\js\popup.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -154,7 +156,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Resources\js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

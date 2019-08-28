@@ -14,6 +14,25 @@ body {
     top: 50%;
     left: 50%;
     /*determinamos un ancho del div, en este caso es la anchura de una imagen*/
+    width: 400px;
+    /*indicamos que el margen izquierdo es la mitad de ese ancho, es decir, 540px dividido por 2*/
+    margin-left: -100px;
+    /*determinamos una altura*/
+    height: 250px;
+    /*indicamos que el margen superior es la mitad de la altura, es decir, 466px dividido por 2*/
+    margin-top: -240px;
+    padding: 5px;
+    background-color: #01d277;
+    opacity: 0.5;
+}
+
+
+
+#example {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*determinamos un ancho del div, en este caso es la anchura de una imagen*/
     width: 1317px;
     /*indicamos que el margen izquierdo es la mitad de ese ancho, es decir, 540px dividido por 2*/
     margin-left: -663px;
@@ -186,3 +205,25 @@ ul>li {
     margin-left: 30px;
 }
 
+#btnClose {
+    margin-left: 380px;
+    background-image: url(../../images/icons/close.png);
+    background-repeat: no-repeat;
+    height:40px;
+    width:40px;
+    outline:none;
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+}
+
+button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
