@@ -40,9 +40,7 @@ body {
     font-weight: bold;
 }
 
-    #ContainerHeader > div {
-        margin: 30px;
-    }
+    
 
 #logo > img {
     margin-top: -25px;
@@ -51,7 +49,9 @@ body {
 }
 
 #logo {
-    left: auto;
+    padding:25px;
+    margin-left:11px;
+    margin-top:-20px;
 }
 
 #footer {
@@ -85,29 +85,29 @@ body {
     display: flex;
     flex-wrap: nowrap;
     width: 500px;
+    padding:20px;
 }
 
-    #containerItems1 > div {
-        margin-left: 20px;
-        margin-bottom: 7px;
-        ;
-    }
+#containerItems1>div {
+    margin-left:20px;
+}
+    
 
-        #containerItems1 > div > a {
-            text-decoration: none;
-            color: white;
-        }
+#containerItems1 > div > a {
+    text-decoration: none;
+    color: white;
+}
 
 #containerItems2 {
     display: flex;
     flex-wrap: nowrap;
     right: 70%;
     width: 600px;
+    padding:20px;
+    margin-right:20px;
 }
 
-    #containerItems2 > div {
-        margin-left: 15px;
-    }
+    
 
 #buttonIngresar {
     margin-right: auto;
@@ -133,3 +133,17 @@ body {
     margin-top: -233px;
     padding: 5px;
 }
+
+ul{
+    list-style:none;
+    display:flex;
+}
+
+ul>li {
+    padding-left:25px;
+}
+
+#ulItems2{
+    margin-left:230px;
+}
+

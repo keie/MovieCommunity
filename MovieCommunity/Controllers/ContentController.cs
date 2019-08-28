@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace MovieCommunity.Controllers
 {
-    public class CommunityController : Controller
+    public class ContentController : Controller
     {
-        // GET: Community
-        public ActionResult IndexCommunity()
+        // GET: Content
+        public ActionResult IndexContent()
         {
             return View();
         }
