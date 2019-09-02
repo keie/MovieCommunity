@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCommunity", "MovieCommunity\MovieCommunity.csproj", "{FE11B19C-FEAB-4ECE-9B8D-1CCAEBE1BF16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessRules", "BussinessRules\BussinessRules.csproj", "{3FB2EFC4-B2C1-49EE-9970-D36E2216F750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D0EE4A72-F870-4EB9-B0C8-01EEBBE0D923}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FE11B19C-FEAB-4ECE-9B8D-1CCAEBE1BF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE11B19C-FEAB-4ECE-9B8D-1CCAEBE1BF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE11B19C-FEAB-4ECE-9B8D-1CCAEBE1BF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB2EFC4-B2C1-49EE-9970-D36E2216F750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB2EFC4-B2C1-49EE-9970-D36E2216F750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB2EFC4-B2C1-49EE-9970-D36E2216F750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB2EFC4-B2C1-49EE-9970-D36E2216F750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0EE4A72-F870-4EB9-B0C8-01EEBBE0D923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EE4A72-F870-4EB9-B0C8-01EEBBE0D923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EE4A72-F870-4EB9-B0C8-01EEBBE0D923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EE4A72-F870-4EB9-B0C8-01EEBBE0D923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
