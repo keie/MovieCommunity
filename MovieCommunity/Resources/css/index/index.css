@@ -58,9 +58,9 @@ body {
     flex-wrap: nowrap;
     /*padding: 7px;*/
     /* font-family: 'Blinker', sans-serif;*/
-    
     font-size: 14px;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
     

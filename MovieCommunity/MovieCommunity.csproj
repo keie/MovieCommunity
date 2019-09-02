@@ -109,6 +109,8 @@
     <Content Include="Resources\images\intrs.jpg" />
     <Content Include="Resources\images\kev2.png" />
     <Content Include="Resources\images\logo.png" />
+    <Content Include="Resources\js\Generic\TransferData.js" />
+    <Content Include="Resources\js\Login\Login.js" />
     <Content Include="Resources\js\popup.js" />
     <Content Include="Resources\js\popupRegister.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -130,6 +132,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -158,7 +161,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BussinessRules\BussinessRules.csproj">
