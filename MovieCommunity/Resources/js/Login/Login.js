@@ -1,4 +1,12 @@
-﻿ function FieldRequerid() {
+﻿function importScript(nombre) {
+    var s = document.createElement("script");
+    s.src = nombre;
+    document.querySelector("head").appendChild(s);
+}
+
+importScript("../Generic/TransferData");
+
+function FieldRequerid() {
      
     var fields = document.getElementsByClassName("LoginInput");
     var field;
@@ -16,8 +24,16 @@
     return meter == 0;
 }
 
- function Login() {
-     if (FieldRequerid()) {
-         alert('validaciones correctas');
+function AttachData() {
+    var userName = document.getElementById("usernameInput").value;
+    var password = document.getElementById("passwordInput").value;
+    var data = [userName, password];
+    alert(userName);
+
+}
+
+function Login() {
+    if (FieldRequerid()) {
+        AttachData();
      } 
 }

@@ -7,7 +7,7 @@ body {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 10px;
-
+    background-color: #ffffff;
 }
 
 #popUp {
@@ -102,6 +102,7 @@ body {
 
 #inputBrowser {
     outline: 0px;
+    
 }
 
 #containerItems1 {

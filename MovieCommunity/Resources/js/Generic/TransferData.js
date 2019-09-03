@@ -1,4 +1,6 @@
-﻿var Get = function (url, callBackServer) {
+﻿
+
+var Get = function (url, callBackServer) {
     RequestServer("get", url, callBackServer);
 }
 
@@ -22,3 +24,7 @@ function RequestServer(methodUrl, url, callBackServer, text) {
         }
     }
 }
+
+
+
+

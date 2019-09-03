@@ -129,6 +129,7 @@
     <Compile Include="Controllers\CommunityController.cs" />
     <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="Controllers\IndexController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -161,12 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BussinessRules\BussinessRules.csproj">
-      <Project>{3fb2efc4-b2c1-49ee-9970-d36e2216f750}</Project>
-      <Name>BussinessRules</Name>
-    </ProjectReference>
+    <Folder Include="Views\Login\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
