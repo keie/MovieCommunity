@@ -1,10 +1,4 @@
-﻿function importScript(nombre) {
-    var s = document.createElement("script");
-    s.src = nombre;
-    document.querySelector("head").appendChild(s);
-}
-
-importScript("./Login/Login");
+﻿
 
 function closePop() {
     document.getElementById('popUp').style.display = 'none';

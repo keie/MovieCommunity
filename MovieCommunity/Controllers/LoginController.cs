@@ -21,6 +21,14 @@ namespace MovieCommunity.Controllers
             return View();
         }
 
+        public bool Login()
+        {
+            bool ans = false;
+            long l = Request.InputStream.Length;
+
+            return ans;
+        }
+
         
         
     }

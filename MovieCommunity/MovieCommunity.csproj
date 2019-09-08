@@ -110,6 +110,7 @@
     <Content Include="Resources\images\kev2.png" />
     <Content Include="Resources\images\logo.png" />
     <Content Include="Resources\js\Generic\TransferData.js" />
+    <Content Include="Resources\js\Login\Generic\TransferData.js" />
     <Content Include="Resources\js\Login\Login.js" />
     <Content Include="Resources\js\popup.js" />
     <Content Include="Resources\js\popupRegister.js" />

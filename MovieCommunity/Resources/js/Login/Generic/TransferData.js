@@ -1,10 +1,11 @@
 ﻿
+
 var Get = function (url, callBackServer) {
     RequestServer("get", url, callBackServer);
 }
 
 var SendText = function (url, callBackServer, text) {
-    alert(text);
+    alert('entro a sendText');
     RequestServer("post", url, callBackServer, text);
 }
 

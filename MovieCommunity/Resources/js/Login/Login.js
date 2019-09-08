@@ -1,12 +1,4 @@
-﻿function importScript(nombre) {
-    var s = document.createElement("script");
-    s.src = nombre;
-    document.querySelector("head").appendChild(s);
-}
-
-importScript("../Generic/TransferData");
-
-function FieldRequerid() {
+﻿function FieldRequerid() {
      
     var fields = document.getElementsByClassName("LoginInput");
     var field;
@@ -29,7 +21,12 @@ function AttachData() {
     var password = document.getElementById("passwordInput").value;
     var data = [userName, password];
     alert(userName);
+    SendText("Login/Login", Confirm, data);
 
+}
+
+function Confirm() {
+    alert("Pase a la controladora con exito");
 }
 
 function Login() {
