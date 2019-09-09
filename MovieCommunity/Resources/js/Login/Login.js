@@ -25,8 +25,8 @@ function AttachData() {
 
 }
 
-function Confirm() {
-    alert("Pase a la controladora con exito");
+function Confirm(message) {
+    alert(message);
 }
 
 function Login() {

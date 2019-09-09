@@ -15,8 +15,13 @@ namespace Tests
         public void LoginUser()
         {
             LoginController log = new LoginController();
-            bool resp = log.Login();
-            Assert.IsTrue(resp);
+            string resp = log.Login();
+            //Assert.IsTrue(resp);
+            if (resp == "success")
+            {
+                Assert.Pass();
+            }
+            Assert.Fail();
         }
     }
 }

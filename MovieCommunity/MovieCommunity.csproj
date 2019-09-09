@@ -134,6 +134,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Login.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -164,6 +165,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessRules\BusinessRules.csproj">
+      <Project>{76b9cdb1-7b93-4fad-a2c7-09bb5bf2e752}</Project>
+      <Name>BusinessRules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{36dff58f-fbcf-4285-affd-a98af6164d9a}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
