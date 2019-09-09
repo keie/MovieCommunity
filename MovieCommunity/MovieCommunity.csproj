@@ -96,6 +96,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Resources\css\index\index.css" />
+    <Content Include="Resources\css\loader\loader.css" />
     <Content Include="Resources\css\popups\popupReg.css" />
     <Content Include="Resources\css\popups\popupSesion.css" />
     <Content Include="Resources\images\icons\close.png" />

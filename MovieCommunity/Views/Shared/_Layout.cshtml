@@ -8,6 +8,7 @@
     <link rel=StyleSheet href="~/Resources/css/index/index.css" type="text/css" media=screen>
     <link rel=StyleSheet href="~/Resources/css/popups/popupReg.css" type="text/css" media=screen>
     <link rel=StyleSheet href="~/Resources/css/popups/popupSesion.css" type="text/css" media=screen>
+    <link rel=StyleSheet href="~/Resources/css/loader/loader.css" type="text/css" media=screen>
 
 </head>
 <body id="body">
@@ -36,6 +37,13 @@
     </div>
     <div class="container body-content">
         @RenderBody()
+    </div>
+    <div class="containerLoader" id="containerLoader" style="display:none">
+        <div class="loader">
+
+        </div>
+        <div class="containerMessage"> Espere Un Momento Por Favor...</div>
+
     </div>
     <div id="footer" ">
         <div class="profile">

@@ -26,10 +26,12 @@ function AttachData() {
 }
 
 function Confirm(message) {
+    document.getElementById('containerLoader').style.display = "none";
     alert(message);
 }
 
 function Login() {
+    document.getElementById('containerLoader').style.display = "block";
     if (FieldRequerid()) {
         AttachData();
      } 
